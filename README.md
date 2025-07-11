@@ -14,7 +14,7 @@ AreaMapGenerator is a tool for generating `.tga` masks for DayZ Community Editio
 - Excludes non-relevant layers from output
 
 ## Directory Structure
-
+```
 AreaMapGenerator/
 ├── main.py
 ├── src/
@@ -28,7 +28,7 @@ AreaMapGenerator/
 │   └── mapgroupproto.xml
 ├── output/
 │   └── *.tga
-
+```
 
 
 ## Setup
