@@ -39,10 +39,12 @@ AreaMapGenerator/
 
 ```bash
 pip install lxml pillow numpy
+```
 Run the tool:
 
-bash
+```bash
 python main.py
+```
 Excluded Layers
 The following layers are excluded from mask generation:
 
@@ -71,9 +73,10 @@ water-sea
 Build Executable (Optional)
 To compile into a standalone executable:
 
-bash
+```bash
 pip install pyinstaller
 pyinstaller --onefile --name AreaMapGenerator main.py
+```
 Notes
 Loot points are rotated using the a attribute from mapgrouppos.xml
 
